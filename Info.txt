@@ -1,0 +1,60 @@
+cd "c:\Tugas\Cawu2\OOP\Project\" ; if ($?) { javac App.java } ; if ($?) { java App }
+
+"Database Sekolah"
+* Registrasi Admin
+* Edit Data
+* Pelulusan Murid
+* Show Data
+
+- App (Main)
+{
+
+}
+
+- Sistem (Isi Menu)
+{
+
+}
+
+- Guru ()
+{
+    - Nama
+    - Jenis Kelamin
+    - Gelar
+    - Status Pengajar
+}
+
+- Murid ()
+{
+    - Nama
+    - Jenis Kelamin
+    - Nilai
+    - NISN
+    - Tanggal/Tempat Lahir
+    - Kelas
+}
+
+- Alumni ()
+{
+    - Nama
+    - Jenis Kelamin
+    - Nilai
+    - NISN
+    - Tanggal/Tempat Lahir
+    - Tahun Kelulusan
+}
+
+- Kelas ()
+{
+    - Total Murid
+    - Walikelas
+}
+
+//ibaratnya data dummy
+- Memory ()
+{
+    - Semua Data Siswa
+    - Semua Data Guru
+    - Semua Data Kelas
+    - Semua Data Alumni
+}
